@@ -508,7 +508,6 @@ html.loaded .header__container {
 .about__code code {
   display: block;
   white-space: pre;
-  font-family: "Courier New",Courier,monospace
 }
 @media (min-width:29.99875em) {
   .button {

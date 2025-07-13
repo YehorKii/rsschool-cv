@@ -93,9 +93,9 @@
 						<h2 class="about__subheading">Code Example</h2>
 						<pre class="about__code"><code>
 function sortArray(arr) {
-  const filteredOdd = arr.filter(el => el % 2).sort((a, b) => a - b);
+  const filteredOdd = arr.filter(el =&gt; el % 2).sort((a, b) =&gt; a - b);
   let result = [...arr];
-  for (let i = 0, x = 0; i < result.length; i++) {
+  for (let i = 0, x = 0; i &lt; result.length; i++) {
     if (result[i] % 2) {
       result[i] = filteredOdd[x];
       x++;
@@ -103,7 +103,7 @@ function sortArray(arr) {
   }
   return result;
 }
-      </code></pre>
+</code></pre>
 					</div>
 					<div class="about__block">
 						<h2 id="projects-me" class="about__subheading">My Projects</h2>
@@ -141,7 +141,7 @@ function sortArray(arr) {
 			<div class="footer__container">
 				<div class="footer__logo">
 					<a href="https://rs.school/courses/javascript-ru">
-						<img alt="rs-logo" src="./img/Footer/rs-school-logo.svg" img>
+						<img alt="rs-logo" src="./img/Footer/rs-school-logo.svg">
 					</a>
 				</div>
 				<div class="footer__social">
